@@ -1,0 +1,35 @@
+/* styles.css */
+
+
+/* Card shadow and hover effect */
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Image styling */
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+/* Custom spinner */
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.5rem;
+}
+
+
+/* Animations using Animate.css */
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
